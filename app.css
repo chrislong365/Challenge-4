@@ -105,6 +105,9 @@
 .l-grey {
   color: #d3d3d3; }
 
+h1.thin {
+  font-weight: 200; }
+
 ul {
   list-style-type: none;
   margin: 0;
