@@ -1,0 +1,85 @@
+
+
+/* Grid system setting initialization */
+.row, 
+.column {
+    box-sizing: border-box;
+}
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+.grey-row{
+    background-color: #212020;
+}
+.column {
+    position: relative;
+    float: left;
+}
+.column {
+    margin-left: 0%;
+}
+.column-1 {
+    width: 8.3333333%;
+}
+.column-2 {
+    width: 16.666666%;
+}
+.column-3 {
+    width: 25%;
+}
+.column-4 {
+    width: 33.333333%;
+}
+.column-5 {
+    width: 41.6666666%;
+}
+.column-6 {
+    width: 50%;
+}
+.column-7 {
+    width: 58.3333333%;
+}
+.column-8 {
+    width: 66.6666666%;
+}
+.column-9 {
+    width: 75%;
+}
+.column-10 {
+    width: 83.3333333%;
+}
+.column-11 {
+    width: 91.6666666%;
+}
+.column-12 {
+    width: 100%;
+}
+
+
+.top-margin
+{
+    margin-top:100px;
+}
+.top-padding
+{
+    padding-top: 50px;
+}
+.bottom-padding
+{
+    padding-bottom: 50px;
+}
+
+.padded-1
+{
+    margin-left: 8.333%;
+}
+
+.padded-2
+{
+    margin-left: 16.66%
+}
