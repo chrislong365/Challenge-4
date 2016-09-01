@@ -1,0 +1,21 @@
+.img-responsive 
+{ 
+	width: 100%; 
+	height: auto; 
+}
+
+/* making images contained within column-4 sizes color shift on mousover */
+.img-wrapper:hover {
+    img
+    {
+    	opacity: .5;
+    }
+    // opacity: .5;
+    height: 100%;
+	background: rgba(108,18,20,.85);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+  
+    // background-color: #d00d20;
+}
